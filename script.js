@@ -16,8 +16,12 @@ form.addEventListener("submit", (event) => {
 const verifyEmail = () => {
   const regexEmail = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-  if (!regexEmail.test(emailElement.value) || emailElement.value == null || emailElement.value == "") {
-    form.classList.add("message-invalid");
+  if (
+    !regexEmail.test(emailElement.value) ||
+    email.value == null ||
+    email.value == ""
+  ) {
+    messageErrorEmail.classList.add("message-invalid");
     messageErrorEmail.innerHTML =
       "Por favor, colocar um endereço de e-mail válido";
   } else {
