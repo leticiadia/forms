@@ -12,7 +12,7 @@ form.addEventListener("submit", (event) => {
   const regexPassword =
     /^(?!.*\s)(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[~`!@#$%^&*()--+={}\[\]|\\:;"'<>,.?/_₹]).{8,16}$/;
 
-  if (!regexEmail.test(email.value)) {
+  if (!regexEmail.test(email.value) || email.value == null || email.value == "") {
     form.classList.add("message-invalid");
     messageErrorEmail.innerHTML =
       "Por favor, colocar um endereço de e-mail válido";
