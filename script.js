@@ -18,8 +18,8 @@ const verifyEmail = () => {
 
   if (
     !regexEmail.test(emailElement.value) ||
-    email.value == null ||
-    email.value == ""
+    emailElement.value == null ||
+    emailElement.value == ""
   ) {
     messageErrorEmail.classList.add("message-invalid");
     messageErrorEmail.innerHTML =
