@@ -202,8 +202,8 @@ main section .forms footer button:hover {
 
   main {
     display: grid;
-    grid-template-columns: 320px;
-    grid-template-rows: 1fr 480px;
+    grid-template-columns: 1000px;
+    grid-template-rows: 120px 480px;
   }
 
   main section {
