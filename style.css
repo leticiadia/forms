@@ -206,7 +206,7 @@ main section .forms footer button:hover {
   header .logo-page {
     display: flex;
     align-items: center;
-    padding: 3.2rem 0 0 18vw;
+    padding: 0 0 0 18vw;
   }
 
   main section {
@@ -217,7 +217,7 @@ main section .forms footer button:hover {
 
 @media screen and (max-width: 600px) {
   header .logo-page {
-    padding: 3.2rem 0 0 12vw;
+    padding: 0 0 0 12vw;
   }
 
   main section {
@@ -284,6 +284,6 @@ main section .forms footer button:hover {
   header .logo-page {
     display: flex;
     align-items: center;
-    padding: 2.4rem 0 1.6rem 4vw;
+    padding: 0 0 1.6rem 4vw;
   }
 }
