@@ -8,7 +8,7 @@
 
 ![Badge](https://img.shields.io/badge/App-HighSchool-%230073b0?style=flat-square&logo=ghost)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-0073b0.svg?style=flat-square)
-![Badge](https://img.shields.io/github/license/leticia/forms?style=flat-square)
+![Badge](https://img.shields.io/github/license/Mikkaiser/blog-techknowledge-front?style=flat-square)
 
 </div>
 
@@ -55,7 +55,7 @@
 
 ## 🧑‍🚀🚀 Contribuições
 
-<p>Solicitações pull são bem-vindas. Para grandes mudanças, abra uma pergunta de competição primeiro sobre o que você gostaria de mudar.</p>
+<p>Solicitações pull são bem-vindas. Para grandes mudanças, abra uma issue primeiro sobre o que você gostaria de mudar.</p>
 
 ## 👩‍💻 Autora
 
