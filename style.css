@@ -19,27 +19,27 @@ body {
 header .logo-page {
   display: flex;
   align-items: center;
-  padding: 0 19vw;
-  margin-top: 3.2rem;
+  padding-top: 1.6rem;
 }
 
 header .logo-page p {
-  font-size: 40px;
+  font-size: 64px;
   color: #fff;
 }
 
 header .logo-page .full-stop {
   background-color: #0073b0;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
 
-  margin-bottom: -18px;
+  margin-bottom: -34px;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1000px;
+  grid-template-rows: 1fr 400px;
   justify-content: center;
   align-items: center;
 
@@ -49,6 +49,7 @@ main {
 main section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
 }
 
 main section .image-background img {
@@ -191,24 +192,28 @@ main section .forms footer button:hover {
 }
 
 @media screen and (max-width: 1400px) {
-  header .logo-page {
-    padding: 0 13vw;
+  header .logo-page p {
+    font-size: 48px;
+  }
+
+  header .logo-page .full-stop {
+    margin-bottom: -24px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 1fr 480px;
   }
 
   main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 2.4rem;
   }
 }
 
 @media screen and (max-width: 820px) {
-  header .logo-page {
-    display: flex;
-    align-items: center;
-    padding: 0 0 0 18vw;
-  }
-
   main section {
     display: grid;
     grid-template-columns: 1fr;
@@ -216,18 +221,8 @@ main section .forms footer button:hover {
 }
 
 @media screen and (max-width: 600px) {
-  header .logo-page {
-    padding: 0 0 0 12vw;
-  }
-
-  main section {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
   main section .image-background img {
     height: 266px;
-    filter: drop-shadow(4px 4px 24px rgba(0, 115, 176, 0.32));
   }
 
   main section .forms .form-title {
@@ -281,9 +276,9 @@ main section .forms footer button:hover {
 }
 
 @media screen and (max-width: 412px) {
-  header .logo-page {
-    display: flex;
-    align-items: center;
-    padding: 0 0 1.6rem 10vw;
+  main {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 120px 620px;
   }
 }
