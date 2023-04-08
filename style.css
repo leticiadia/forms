@@ -19,6 +19,8 @@ body {
 header .logo-page {
   display: flex;
   align-items: center;
+  padding: 0 13vw;
+  margin-top: 3.2rem;
 }
 
 header .logo-page p {
@@ -39,9 +41,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3.2rem;
-  padding: 0 16vw;
-  min-height: 100vh;
+  align-items: center;
+
+  min-height: 80vh;
 }
 
 main section {
@@ -197,8 +199,10 @@ main section .forms footer button:hover {
 }
 
 @media screen and (max-width: 820px) {
-  main {
-    padding: 0 20vw;
+  header .logo-page {
+    display: flex;
+    align-items: center;
+    padding: 3.2rem 0 1.6rem 18vw;
   }
 
   main section {
@@ -208,10 +212,6 @@ main section .forms footer button:hover {
 }
 
 @media screen and (max-width: 600px) {
-  main {
-    padding: 0 20vw;
-  }
-
   main section {
     display: grid;
     grid-template-columns: 1fr;
@@ -273,7 +273,9 @@ main section .forms footer button:hover {
 }
 
 @media screen and (max-width: 412px) {
-  main {
-    padding: 0 6vw;
+  header .logo-page {
+    display: flex;
+    align-items: center;
+    padding: 3.2rem 0 1.6rem 6vw;
   }
 }
