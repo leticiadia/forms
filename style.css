@@ -112,6 +112,10 @@ main section .forms form input {
   font-size: 1.6rem;
 }
 
+main section .forms form .message {
+  font-size: 1.4rem;
+}
+
 main section .forms form button {
   width: 40rem;
   height: 4.8rem;
@@ -182,4 +186,94 @@ main section .forms footer button:hover {
 
 .message-invalid {
   color: red;
+}
+
+@media screen and (max-width: 1400px) {
+  main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  main {
+    padding: 0 20vw;
+  }
+
+  main section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    padding: 0 20vw;
+  }
+
+  main section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main section .image-background img {
+    height: 266px;
+    filter: drop-shadow(4px 4px 24px rgba(0, 115, 176, 0.32));
+  }
+
+  main section .forms .form-title {
+    font-size: 2rem;
+  }
+
+  main section .forms {
+    width: 32rem;
+    height: 32rem;
+  }
+
+  main section .forms form input {
+    width: 28rem;
+    height: 2rem;
+    padding: 1.6rem 4.8rem;
+
+    font-size: 1.4rem;
+  }
+
+  main section .forms form .message {
+    font-size: 1.2rem;
+  }
+
+  main section .forms form button {
+    width: 28rem;
+    height: 3.2rem;
+  }
+
+  main section .forms footer button {
+    width: 14rem;
+    height: 3.2rem;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: #7180b9;
+  }
+
+  main section .forms footer {
+    gap: 4rem;
+
+    padding: 1.6rem;
+  }
+
+  main section .forms footer p {
+    font-size: 1.4rem;
+  }
+
+  main section .forms footer button i {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  main {
+    padding: 0 6vw;
+  }
 }
